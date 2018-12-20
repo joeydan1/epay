@@ -1,0 +1,24 @@
+2018-12-15 13:48:30  异步通知返回报文：Array
+(
+    [sign] => ix5PQ4FIqZDDONBanjdDOem9Cb0RSnx13cmiyDrPLvgE4vwreoCLnwfgM0n5ipIxq/mQYr0jw3tj/6QvM5Hs1E46ld+w+H1JlQkdRW6SJhQrZlru08qBzsGV22G5PyAnhhRpFe0T8rzNGHQv3/CZrrp8Gobb/EN4HsvJdYFZgR+exoRnHjggRHZ6E12FQVOipSyrJ8c7XwcJPdu8EmUAvtSPI1OWYb42aTPO+B3S8U85aGbYpdIkVlXczm7/8RforqJwhWPYMy5c7za4VYFj8pnStgcMwj25me/6SqDz8tjmzM/MxdT6N/SqJBs2tSnxuPsJHG9GMfVBZEb7xgB0gw==
+    [signType] => testPostNotify
+    [data] => aaaaaaaaabbbbbbbbbbcccccccccc
+    [charset] => utf8
+)
+
+2018-12-17 11:10:58  异步通知返回报文：Array
+(
+    [sign] => ix5PQ4FIqZDDONBanjdDOem9Cb0RSnx13cmiyDrPLvgE4vwreoCLnwfgM0n5ipIxq/mQYr0jw3tj/6QvM5Hs1E46ld+w+H1JlQkdRW6SJhQrZlru08qBzsGV22G5PyAnhhRpFe0T8rzNGHQv3/CZrrp8Gobb/EN4HsvJdYFZgR+exoRnHjggRHZ6E12FQVOipSyrJ8c7XwcJPdu8EmUAvtSPI1OWYb42aTPO+B3S8U85aGbYpdIkVlXczm7/8RforqJwhWPYMy5c7za4VYFj8pnStgcMwj25me/6SqDz8tjmzM/MxdT6N/SqJBs2tSnxuPsJHG9GMfVBZEb7xgB0gw==
+    [signType] => testPostNotify
+    [data] => aaaaaaaaabbbbbbbbbbcccccccccc
+    [charset] => utf8
+)
+
+2018-12-17 11:48:50  异步通知返回报文：Array
+(
+    [sign] => UblSIN9KKgK+PLBn5ORwvHbqf0RTKLqNcqHJMbfEdTgl8Ib3UcuqcTIyn3BCW1U+Pi8e5FP4L1b4vtcj4B640644kL4WTnHkw7/D9nSqsuXJ92fnjjkdukfSLq+N8bmsyEF8zp0J0/BnatEY7ZZt4SHw/dEo7/Fp87dIQ5wsxW0akIBHKKbdHf0vzW78OdiWuctEgq1ysgzLj2FlXuubA9lBdteXnl32J2/SH0rOcZXG8iJj/dhYHbD0flPrrqA6AccBoo3yQN7o4T1SAaaqvGeJ2Q6s8LUaSwmOssZMqODGLLcRABo8dfIqy8H0R9uDVNqI28iRYMNRGNuiXv6W1w==
+    [signType] => 01
+    [data] => {"body":{"orderCode":"20181217114500","tradeNo":"2018121711425404741540773014","clearDate":"20181217","orderStatus":"1","payTime":"20181217114254","buyerPayAmount":"000000000100","accNo":"","settleAmount":"000000000100","midFee":"000000000000","totalAmount":"000000000100","mid":"17616630","discAmount":"000000000000","bankserial":""},"head":{"respCode":"000000","respTime":"20181217114646","version":"1.0"}}
+    [charset] => UTF-8
+)
+

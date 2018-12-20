@@ -1,0 +1,180 @@
+2018-12-15 12:36:49  异步通知返回报文：---------
+stdClass Object
+(
+    [submitUrl] => https://cashier.sandpay.com.cn/allChannelPayAdapter
+    [payMode] => bank_pc
+    [params] => stdClass Object
+        (
+            [bizType] => 000201
+            [realSumbitUrl] => https://gateway.95516.com/gateway/api/frontTransReq.do
+            [backUrl] => ZX|http://144.255.17.145:8288/request/upacInternetBankNotify
+            [orderId] => UPAC201812150940670000000000000000023303
+            [signature] => Nk9wUlbtigswAA5k089Eu6ztJwvkWrm8BCjEnlJBP3zDPfUZO5V18enlrGYKQqm3f89VMImL1uvaWWX0QIGZsLOpomXm2IcTN8Hp3Xiu7iEZwKMl5zS8uLB59WBCQzxHoVkPXYJ9Ti7IZlGNo5/l3T03t+S6aTW4PrdHvMvVpcBlrp+nymJWZTLica6/NRSLgtbGOmhXHVs7uohCPMBYc3VF8UU+6KtLfp943HXRmau2fK2F+1abEA5UBTMnVEE8kjkCgaMR2LAzwUYS7fLhQTGv/fzFMHOZ0JVkZz54bwuu1RKzaqY7jZSM4fUJGb24A12Nx9dOhuB2EMqv9PDJkg==
+            [merName] => 南京众誉网络科技有限公司
+            [txnType] => 01
+            [channelType] => 07
+            [accessType] => 1
+            [reqReserved] => 00000940
+            [txnTime] => 20181215123454
+            [txnSubType] => 01
+            [issInsCode] => ICBC
+            [frontUrl] => https://cashier.sandpay.com.cn/gateway/api/order/notice/allChannelPay
+            [certId] => 69525006230
+            [encoding] => UTF-8
+            [acqInsCode] => 48273900
+            [version] => 5.0.0
+            [merAbbr] => 南京众誉网络科技
+            [merId] => 82732010738AAAC
+            [merCatCode] => 5732
+            [payTimeout] => 20181215143454
+            [currencyCode] => 156
+            [signMethod] => 01
+            [txnAmt] => 100
+        )
+
+)
+
+2018-12-15 12:46:21  异步通知返回报文：---------
+stdClass Object
+(
+    [submitUrl] => https://cashier.sandpay.com.cn/allChannelPayAdapter
+    [payMode] => bank_pc
+    [params] => stdClass Object
+        (
+            [bizType] => 000201
+            [realSumbitUrl] => https://gateway.95516.com/gateway/api/frontTransReq.do
+            [backUrl] => ZX|http://144.255.17.145:8288/request/upacInternetBankNotify
+            [orderId] => UPAC201812150940323000000000000000023416
+            [signature] => yVHrsFO7Igas+VcZwxvce8UmXfky5TBZyOGR/psGieDnYLYy5J4VvocUHi8vQBLl/TabnWCIZGwot/LFT0esOnMCIs1W2HhhhSqpt64FnZyPEaebjfWTVsv4XauOlMVDqBwlE9RWGdgPJxyIVHsPYNKhFMluqEbnzv1qx5Act56DjD5nkDIH9TzMuLCU4Hu779B7Z07AL/xvh+++H4JRfbdNygFffl7UGACBTa2EAcLNSVVWgUkI1LyjERhjj+78I5QFcM/7ba3UFwv2T6/jQ0mFzjPatmpb91ASBHMufe8elYM5dl/QJp1PyeM55STG7m6cIbhgnUm+08sVQuKvAA==
+            [merName] => 南京众誉网络科技有限公司
+            [txnType] => 01
+            [channelType] => 07
+            [accessType] => 1
+            [reqReserved] => 00000940
+            [txnTime] => 20181215124427
+            [txnSubType] => 01
+            [issInsCode] => ICBC
+            [frontUrl] => https://cashier.sandpay.com.cn/gateway/api/order/notice/allChannelPay
+            [certId] => 69525006230
+            [encoding] => UTF-8
+            [acqInsCode] => 48273900
+            [version] => 5.0.0
+            [merAbbr] => 南京众誉网络科技
+            [merId] => 82732010738AAAC
+            [merCatCode] => 5732
+            [payTimeout] => 20181215144426
+            [currencyCode] => 156
+            [signMethod] => 01
+            [txnAmt] => 100
+        )
+
+)
+
+2018-12-15 12:59:20  异步通知返回报文：---------
+stdClass Object
+(
+    [submitUrl] => https://cashier.sandpay.com.cn/allChannelPayAdapter
+    [payMode] => bank_pc
+    [params] => stdClass Object
+        (
+            [bizType] => 000201
+            [realSumbitUrl] => https://gateway.95516.com/gateway/api/frontTransReq.do
+            [backUrl] => ZX|http://144.255.17.145:8288/request/upacInternetBankNotify
+            [orderId] => UPAC201812150940464000000000000000024019
+            [signature] => H1Vkom3w7b87k+thWmmdIwtvtky+qn/0XeuiZPOpKMmpGZhtpyCBlI3uGPyzujN6CeTifefwN+Y31x9GMUfYDJK28W/l0nLtS/F9VoY5XuTz9Ky0ESZ5LeISQrvIE1X1rpT/zO7WzVAoUXeiPG+iUkK1uLanHxwcv1SIRV43qns34VBV8JQryId07w00zDhBQtCu8j3ALsCqNTHj4PsgP4+aC3bbxj0aImFxNNX9rtWgII+dOEXNPcZQxiXtRfvextKBe1DqGMHwp6qkNT/BIJ5TS/Cww65r0TS5nLXc3MfcNuBDqA0AGLwzcDBn6V36qfeumEL5ssc8RdWXMcTRZg==
+            [merName] => 南京众誉网络科技有限公司
+            [txnType] => 01
+            [channelType] => 07
+            [accessType] => 1
+            [reqReserved] => 00000940
+            [txnTime] => 20181215125725
+            [txnSubType] => 01
+            [issInsCode] => ICBC
+            [frontUrl] => https://cashier.sandpay.com.cn/gateway/api/order/notice/allChannelPay
+            [certId] => 69525006230
+            [encoding] => UTF-8
+            [acqInsCode] => 48273900
+            [version] => 5.0.0
+            [merAbbr] => 南京众誉网络科技
+            [merId] => 82732010738AAAC
+            [merCatCode] => 5732
+            [payTimeout] => 20181215145725
+            [currencyCode] => 156
+            [signMethod] => 01
+            [txnAmt] => 100
+        )
+
+)
+
+2018-12-15 13:49:05  异步通知返回报文：---------
+stdClass Object
+(
+    [submitUrl] => https://cashier.sandpay.com.cn/allChannelPayAdapter
+    [payMode] => bank_pc
+    [params] => stdClass Object
+        (
+            [bizType] => 000201
+            [realSumbitUrl] => https://gateway.95516.com/gateway/api/frontTransReq.do
+            [backUrl] => ZX|http://144.255.17.145:8288/request/upacInternetBankNotify
+            [orderId] => UPAC201812150940958000000000000000027404
+            [signature] => sS6dbT9w5T5b5k8YTUfQLhSreP+NO/lMQ/gzMyU3LCpjGpNpgXybJr5K6J816iglH+TC2WN66MNug3zC4I7i2uVImmkgh7TfFQEU8wFFETS910JQQ9WK0Y+YC/Mms1uPE4fZWSudGgGil1o+Z4n46sNJQe52fuOo76YQQv/+yBdEoKddgqQ+DbvdIRQG1BfFqCBtq8qObTpU+ueWdRGm5QPPbK5AQGpK3i8J3D1AjTfk1mfGPCwkvFcL4Sm3RSQA0+eYUzM3ZPzVZ5cNdW+A8ydyx4fWrxv3NK6gD/e29GkxJe87+CmudIE5ROPZQOrVLUynp/jpeAb9BWPeQzRO/A==
+            [merName] => 南京众誉网络科技有限公司
+            [txnType] => 01
+            [channelType] => 07
+            [accessType] => 1
+            [reqReserved] => 00000940
+            [txnTime] => 20181215134710
+            [txnSubType] => 01
+            [issInsCode] => ICBC
+            [frontUrl] => https://cashier.sandpay.com.cn/gateway/api/order/notice/allChannelPay
+            [certId] => 69525006230
+            [encoding] => UTF-8
+            [acqInsCode] => 48273900
+            [version] => 5.0.0
+            [merAbbr] => 南京众誉网络科技
+            [merId] => 82732010738AAAC
+            [merCatCode] => 5732
+            [payTimeout] => 20181215154710
+            [currencyCode] => 156
+            [signMethod] => 01
+            [txnAmt] => 100
+        )
+
+)
+
+2018-12-17 11:44:58  异步通知返回报文：---------
+stdClass Object
+(
+    [submitUrl] => https://cashier.sandpay.com.cn/allChannelPayAdapter
+    [payMode] => bank_pc
+    [params] => stdClass Object
+        (
+            [bizType] => 000201
+            [realSumbitUrl] => https://gateway.95516.com/gateway/api/frontTransReq.do
+            [backUrl] => ZX|http://144.255.17.145:8288/request/upacInternetBankNotify
+            [orderId] => UPAC201812170940497000000000000000020541
+            [signature] => TDI6qmv9L9RsCt0v3HPfrCIWQCKpltcwuNUB/Rv/HdL6Ew3eRrhq6PwiDQ/Ahb5J3DIrG5OzIKccUk9xVtSEhReVMC7aSamWxkt9oUrR85LcVlj3SCGtUxu8yJ/+dOlWkbG/SdINhjnJSwZ93m3Prdox5Hku79E+qATLNZR9J5H6WVkTAF/XRGc23MjCDChuC5ITAsWecCvNSr6AlWw/AtTf1eCnU6IrLOl+Zd9nCLvrmysz6sp21yynixtpUwKgUANXIvnatqmks3aIaPRO5K0kIwvHAn+b7z+6rJfwjq66SAZWP/jl0Lhg0vLs3osc1fssSPdUNP4C9Nc6E7bHWg==
+            [merName] => 南京众誉网络科技有限公司
+            [txnType] => 01
+            [channelType] => 07
+            [accessType] => 1
+            [reqReserved] => 00000940
+            [txnTime] => 20181217114254
+            [txnSubType] => 01
+            [issInsCode] => ICBC
+            [frontUrl] => https://cashier.sandpay.com.cn/gateway/api/order/notice/allChannelPay
+            [certId] => 69525006230
+            [encoding] => UTF-8
+            [acqInsCode] => 48273900
+            [version] => 5.0.0
+            [merAbbr] => 南京众誉网络科技
+            [merId] => 82732010738AAAC
+            [merCatCode] => 5732
+            [payTimeout] => 20181217134254
+            [currencyCode] => 156
+            [signMethod] => 01
+            [txnAmt] => 100
+        )
+
+)
+

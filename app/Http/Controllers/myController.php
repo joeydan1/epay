@@ -9,6 +9,7 @@ use App\Providers\EbankPayReceive;
 use App\Providers\GeneralPayReceive;
 use App\Providers\DBHandller;
 use App\Providers\myEbankPay;
+use App\Providers\zgServicePay;
 
 date_default_timezone_set("Asia/Shanghai");
 //require_once('//home//vagrant//code//Laravel/app//Providers//GeneralPayReceive.php');
@@ -148,6 +149,27 @@ class myController extends Controller
             }else return array('result' => False, 'message'=>'submit url is null');
             
         }else return $return;
+
+    }
+
+
+    public function zgServicePay(Request $request)
+    {
+        $zgServicePayObj = new zgServicePay('servicePay', $request);
+        $return = $zgServicePayObj->execute();
+
+        
+
+
+
+
+
+
+
+
+
+
+
 
     }
 

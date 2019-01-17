@@ -20,6 +20,8 @@ class DBHandller
                     'agentName' =>  $data['agentName'],
                     'payKey' => $data['payKey'],
                     'memberId' => date("ymdHis") . rand(100,199),
+                    'mid' => $data['mid'],
+                    'payChannel' => $data['payChannel'],
                 ]   
             );
             return array('result' => True);
@@ -51,6 +53,8 @@ class DBHandller
                     'amount' =>  $data['amount'],
                     'tradeType' =>  $data['tradeType'],
                     'timePaid' =>  $data['timePaid'],
+                    'mid' =>  $data['mid'],
+                    'channel' =>  $data['channel'],
                 ]   
             );
             return array('result' => True, 'message' => 'myEbankPayTradingRecordInsert sucessfully');
@@ -158,6 +162,15 @@ class DBHandller
         }
     }
 
+
+    function zgMidSearch($mid){
+        try{
+            $sandpayMerchant = DB::table('zgMerchant')->where('mid', $mid)->first();
+            return array('result'=> True, 'data' => $sandpayMerchant);
+        }catch(\Illuminate\Database\QueryException $e){
+            return array('result' => False, 'message' => $e->getMessage());
+        }
+    }
 
 }
 

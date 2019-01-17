@@ -34,12 +34,8 @@ class myEbankPay extends myEbankPayBase
         
         $result = $db->myPayKey($extraObj->{'memberId'});
 
-        if ($result['result']){
-            $myPayKey = $result['myPayKey'];
-        }else{
-            return $result;
-        }
-        
+        if (!$result['result']) return $result;
+        $myPayKey = $result['myPayKey'];
         
         $data = array();
         $data["tradeType"] = $this->post['tradeType'];//交易类型

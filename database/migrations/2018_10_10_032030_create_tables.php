@@ -47,6 +47,8 @@ class CreateTables extends Migration
             $table->string('agentName')->nullable();
             $table->string('payKey')->unique();
             $table->string('memberId')->unique();
+            $table->string('mid')->unique();
+            $table->string('payChannel')->unique();
             
         });
 
@@ -71,9 +73,10 @@ class CreateTables extends Migration
 
             $table->increments('id');
             $table->string('mid')->unique();
-            $table->string('memberId')->unique();
+            //$table->string('memberId')->unique();
             $table->string('certPwd')->unique();
             $table->string('priKey')->unique();
+            $table->string('pubKey')->unique();
 
 
         });
@@ -93,6 +96,17 @@ class CreateTables extends Migration
 
             $table->longText('finalBankLink', 500)->unique();
             $table->string('mid');
+        });
+
+        Schema::create('zgMerchant', function(Blueprint $table){
+
+            $table->increments('id');
+            $table->string('mid')->unique();
+            $table->string('priKey')->unique();
+            $table->string('pubKey')->unique();
+            $table->string('priKeyPwd')->unique();
+            $table->string('md5Str')->unique();
+
         });
 
     }
